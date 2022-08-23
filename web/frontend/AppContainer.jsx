@@ -21,6 +21,7 @@ function AppContainer(props) {
   useEffect(() => {
     console.log('-------------------------')
     console.log('App props:', props)
+    console.log('-------------------------')
   }, [props])
 
   const getStoreSetting = async () => {

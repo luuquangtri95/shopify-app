@@ -98,6 +98,7 @@ function AppContainer(props) {
                   <Preloader />
                 )}
               </Page>
+
             </AppFullscreen>
 
             {appLoading?.loading && <LoadingPage />}

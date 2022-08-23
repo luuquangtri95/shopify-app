@@ -59,6 +59,7 @@ function AppContainer(props) {
         }
         actions.hideNotify()
       }}
+      
     />
   )
 
@@ -77,7 +78,6 @@ function AppContainer(props) {
                 ]
               }
             />
-
             <AppFullscreen isFullscreen={isFullscreen}>
               <Page fullWidth={isFullscreen}>
                 {storeSetting ? (
